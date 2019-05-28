@@ -4,11 +4,15 @@ import javafx.beans.property.SimpleStringProperty;
 
 public class Contact {
     //class fields
-    private SimpleStringProperty firstName;
-    private SimpleStringProperty lastName;
-    private SimpleStringProperty phoneNumber;
-    private SimpleStringProperty notes;
+    private SimpleStringProperty firstName = new SimpleStringProperty("");
+    private SimpleStringProperty lastName = new SimpleStringProperty("");
+    private SimpleStringProperty phoneNumber = new SimpleStringProperty("");
+    private SimpleStringProperty notes = new SimpleStringProperty("");
 
+    //default constructor with no values
+    public Contact() {
+
+    }
     public Contact(String firstName, String lastName, String phoneNumber, String notes) {
         this.firstName.set(firstName);
         this.firstName.set(lastName);
@@ -64,6 +68,7 @@ public class Contact {
         this.notes.set(notes);
     }
 
+    //For bug fixing purposes for now
     @Override
     public String toString() {
         return "Contact{" +

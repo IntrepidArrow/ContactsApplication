@@ -1,4 +1,5 @@
 package com.abhi.contactsApplication.dataModel;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import javax.xml.stream.XMLEventFactory;
@@ -28,13 +29,24 @@ public class ContactData {
     private static final String PHONE_NUMBER = "phone_number";
     private static final String NOTES = "notes";
 
+    //list for data binding for tableView
     private ObservableList<Contact> contacts;
 
     public ContactData() {
-        // *** initialize the contacts list here ***
+        contacts = FXCollections.observableArrayList();
     }
 
-    // *** Add methods to add/delete/access contacts here ***
+    //Methods to add, delete and access contacts to edit them
+    public void addContacts(Contact entry){
+        contacts.add(entry);
+    }
+    public void deleteContact(Contact entry){
+        contacts.remove(entry);
+    }
+
+    public ObservableList<Contact> getContacts(){
+        return contacts;
+    }
 
     public void loadContacts() {
         try {
