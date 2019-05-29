@@ -1,9 +1,12 @@
 package com.abhi.contactsApplication;
 
+import com.abhi.contactsApplication.dataModel.Contact;
+import com.abhi.contactsApplication.dataModel.ContactData;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
@@ -13,7 +16,17 @@ public class Controller {
 
     @FXML
     private BorderPane mainWindowPane;
+    @FXML
+    private TableView<Contact> contactsTable;
 
+    private ContactData contactData;
+
+    public void initialize(){
+        //Observable array list made here for data binding purpose
+        contactData = new ContactData();
+        contactData.loadContacts();
+        contactsTable.setItems(contactData.getContacts());
+    }
     //Add new contact method
     @FXML
     public void handleNewContactEvent(){
@@ -38,5 +51,11 @@ public class Controller {
 
         //show and wait command needed or else OK by default and window will not pop-up for display (during Testing)
         Optional<ButtonType> result = dialogPage.showAndWait();
+        if(result.isPresent() && result.get()==ButtonType.OK){
+            ContactsDialogController controller = fxmlLoader.getController();
+            Contact newContact = controller.processDetails();
+            contactData.addContacts(newContact);
+            contactData.saveContacts();
+        }
     }
 }

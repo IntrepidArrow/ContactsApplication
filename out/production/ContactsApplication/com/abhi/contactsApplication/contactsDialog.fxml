@@ -5,7 +5,7 @@
 <DialogPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.abhi.contactsApplication.ContactsDialogController">
     <!--    Brief description for window purpose-->
     <headerText>
-        Enter relevant contact detail information to add contact to contact book!
+        Enter Contact Details:
     </headerText>
     <!--    Setting up layout for the dialog window-->
     <content>
