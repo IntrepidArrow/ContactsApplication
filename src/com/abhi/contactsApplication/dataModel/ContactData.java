@@ -37,11 +37,11 @@ public class ContactData {
     }
 
     //Methods to add, delete and access contacts to edit them
-    public void addContacts(Contact entry){
-        contacts.add(entry);
+    public void addContacts(Contact contact){
+        contacts.add(contact);
     }
-    public void deleteContact(Contact entry){
-        contacts.remove(entry);
+    public void deleteContact(Contact contact){
+        contacts.remove(contact);
     }
 
     public ObservableList<Contact> getContacts(){

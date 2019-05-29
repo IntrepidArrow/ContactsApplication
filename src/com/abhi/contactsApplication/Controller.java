@@ -39,7 +39,7 @@ public class Controller {
 
         try{
             dialogPage.getDialogPane().setContent(fxmlLoader.load());
-            System.out.println("I have reached here");
+            System.out.println("Dialog box open successful.");
         } catch (IOException e){
             System.out.println("Unable to load window");
             e.printStackTrace();
@@ -53,7 +53,7 @@ public class Controller {
         Optional<ButtonType> result = dialogPage.showAndWait();
         if(result.isPresent() && result.get()==ButtonType.OK){
             ContactsDialogController controller = fxmlLoader.getController();
-            Contact newContact = controller.processDetails();
+            Contact newContact = controller.makeNewContact();
             contactData.addContacts(newContact);
             contactData.saveContacts();
         }
