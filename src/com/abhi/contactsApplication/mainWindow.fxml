@@ -11,7 +11,11 @@
     <top>
         <MenuBar>
             <Menu text="Contacts">
-                <MenuItem text="New"/>
+                <MenuItem text="New..." onAction="#handleNewContactEvent"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Edit"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Delete"/>
                 <SeparatorMenuItem/>
                 <MenuItem text="Exit"/>
             </Menu>
@@ -35,21 +39,25 @@
                         <PropertyValueFactory property="firstName"/>
                     </cellValueFactory>
                 </TableColumn>
+
                 <TableColumn text="Last Name">
                     <cellValueFactory>
                         <PropertyValueFactory property="lastName"/>
                     </cellValueFactory>
                 </TableColumn>
+
                 <TableColumn text="Phone Number">
                     <cellValueFactory>
                         <PropertyValueFactory property="lastName"/>
                     </cellValueFactory>
                 </TableColumn>
+
                 <TableColumn text="Notes">
                     <cellValueFactory>
                         <PropertyValueFactory property="lastName"/>
                     </cellValueFactory>
                 </TableColumn>
+
             </columns>
         </TableView>
     </center>
