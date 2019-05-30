@@ -37,11 +37,11 @@ public class ContactData {
     }
 
     //Methods to add, delete and access contacts to edit them
-    public void addContacts(Contact entry){
-        contacts.add(entry);
+    public void addContacts(Contact contact){
+        contacts.add(contact);
     }
-    public void deleteContact(Contact entry){
-        contacts.remove(entry);
+    public void deleteContact(Contact contact){
+        contacts.remove(contact);
     }
 
     public ObservableList<Contact> getContacts(){
@@ -65,6 +65,7 @@ public class ContactData {
                     StartElement startElement = event.asStartElement();
                     // If we have a contact item, we create a new contact
                     if (startElement.getName().getLocalPart().equals(CONTACT)) {
+//                        System.out.println(startElement.getName().getLocalPart().equals(CONTACT));
                         contact = new Contact();
                         continue;
                     }
@@ -74,6 +75,7 @@ public class ContactData {
                                 .equals(FIRST_NAME)) {
                             event = eventReader.nextEvent();
                             contact.setFirstName(event.asCharacters().getData());
+//                            System.out.println(contact.getFirstName());
                             continue;
                         }
                     }
@@ -81,6 +83,7 @@ public class ContactData {
                             .equals(LAST_NAME)) {
                         event = eventReader.nextEvent();
                         contact.setLastName(event.asCharacters().getData());
+//                        System.out.println(contact.getLastName());
                         continue;
                     }
 
@@ -88,6 +91,7 @@ public class ContactData {
                             .equals(PHONE_NUMBER)) {
                         event = eventReader.nextEvent();
                         contact.setPhoneNumber(event.asCharacters().getData());
+//                        System.out.println(contact.getPhoneNumber());
                         continue;
                     }
 
@@ -95,6 +99,7 @@ public class ContactData {
                             .equals(NOTES)) {
                         event = eventReader.nextEvent();
                         contact.setNotes(event.asCharacters().getData());
+//                        System.out.println(contact.getNotes());
                         continue;
                     }
                 }

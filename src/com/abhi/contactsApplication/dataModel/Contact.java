@@ -11,13 +11,13 @@ public class Contact {
 
     //default constructor with no values
     public Contact() {
-
     }
+
     public Contact(String firstName, String lastName, String phoneNumber, String notes) {
         this.firstName.set(firstName);
-        this.firstName.set(lastName);
-        this.firstName.set(phoneNumber);
-        this.firstName.set(notes);
+        this.lastName.set(lastName);
+        this.phoneNumber.set(phoneNumber);
+        this.notes.set(notes);
     }
 
     public String getFirstName() {
