@@ -6,4 +6,22 @@
 	<phone_number>5148145940</phone_number>
 	<notes>BBB</notes>
 </contact>
+<contact>
+	<first_name>AAA</first_name>
+	<last_name>BBB</last_name>
+	<phone_number>CCC</phone_number>
+	<notes>DDD</notes>
+</contact>
+<contact>
+	<first_name>First1</first_name>
+	<last_name>Last1</last_name>
+	<phone_number>Number1</phone_number>
+	<notes>Notes1</notes>
+</contact>
+<contact>
+	<first_name>First2</first_name>
+	<last_name>Last2</last_name>
+	<phone_number>Number2</phone_number>
+	<notes>Notes2</notes>
+</contact>
 </contacts>

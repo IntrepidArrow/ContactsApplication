@@ -5,4 +5,5 @@ module ContactsApplication {
     requires java.xml;
 
     opens com.abhi.contactsApplication;
+    opens com.abhi.contactsApplication.dataModel;
 }

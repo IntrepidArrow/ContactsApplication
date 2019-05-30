@@ -2,6 +2,7 @@ package com.abhi.contactsApplication;
 
 import com.abhi.contactsApplication.dataModel.Contact;
 import com.abhi.contactsApplication.dataModel.ContactData;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ButtonType;
@@ -26,6 +27,10 @@ public class Controller {
         contactData = new ContactData();
         contactData.loadContacts();
         contactsTable.setItems(contactData.getContacts());
+
+
+        //Debug to check elements added to ObservableArrayList in ContactsDaa class.
+//        System.out.println(contactData.getContacts().toString());
     }
     //Add new contact method
     @FXML

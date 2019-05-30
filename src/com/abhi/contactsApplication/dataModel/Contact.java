@@ -11,8 +11,8 @@ public class Contact {
 
     //default constructor with no values
     public Contact() {
-
     }
+
     public Contact(String firstName, String lastName, String phoneNumber, String notes) {
         this.firstName.set(firstName);
         this.lastName.set(lastName);

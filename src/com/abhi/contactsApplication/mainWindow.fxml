@@ -48,13 +48,13 @@
 
                 <TableColumn text="Phone Number">
                     <cellValueFactory>
-                        <PropertyValueFactory property="lastName"/>
+                        <PropertyValueFactory property="phoneNumber"/>
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn text="Notes">
                     <cellValueFactory>
-                        <PropertyValueFactory property="lastName"/>
+                        <PropertyValueFactory property="notes"/>
                     </cellValueFactory>
                 </TableColumn>
 
