@@ -13,11 +13,11 @@
             <Menu text="Contacts">
                 <MenuItem text="New..." onAction="#handleNewContactEvent"/>
                 <SeparatorMenuItem/>
-                <MenuItem text="Edit"/>
+                <MenuItem text="Edit" onAction="#handleEditContactEvent"/>
                 <SeparatorMenuItem/>
                 <MenuItem text="Delete"/>
                 <SeparatorMenuItem/>
-                <MenuItem text="Exit"/>
+                <MenuItem text="Exit" onAction="#handleExit"/>
             </Menu>
         </MenuBar>
     </top>

@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/dataModel/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/dataModel/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ContactsApplication/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContactsApplication/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/mainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ContactsApplication/com/abhi/contactsApplication/mainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhi/contactsApplication/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhi/contactsApplication/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="252">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -82,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/ContactData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1184">
+              <caret line="199" column="29" lean-forward="true" selection-start-line="199" selection-start-column="29" selection-end-line="199" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -91,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="197">
+              <caret line="121" column="41" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -100,10 +97,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
-                <marker date="1559090165485" expanded="true" signature="1984:2130" ph="..." />
+                <marker date="1559234656984" expanded="true" signature="2042:2188" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialog.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="230">
               <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
             </state>
           </provider>
@@ -123,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -156,14 +153,15 @@
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialoug.fxml" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialouge.fxml" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialoge.fxml" />
-        <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialog.fxml" />
-        <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java" />
         <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java" />
         <option value="$PROJECT_DIR$/contacts.xml" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/ContactData.java" />
+        <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/errorDialog.fxml" />
         <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java" />
       </list>
     </option>
   </component>
@@ -348,7 +346,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.38020834" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.38020834" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39930555" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -359,9 +357,9 @@
       <window_info anchor="bottom" id="Changes" order="11" />
       <window_info anchor="bottom" id="Profiler" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3298611" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="UML design tool window" order="1" />
+      <window_info anchor="right" id="UML design tool window" order="1" weight="0.3292978" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
@@ -467,45 +465,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <marker date="1559090165485" expanded="true" signature="1984:2130" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://$USER_HOME$/Desktop/Abhimukth/JavaLibrary/javafx-sdk-11.0.2/lib/javafx.base.jar!/javafx/beans/property/ObjectPropertyBase.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,17 +486,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/dataModel/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="1184">
+          <caret line="199" column="29" lean-forward="true" selection-start-line="199" selection-start-column="29" selection-end-line="199" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/mainWindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1559234656984" expanded="true" signature="2042:2188" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/ErrorDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/errorDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/Abhimukth/JavaLibrary/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/contactsDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/ContactsDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhi/contactsApplication/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="197">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="41" />
         </state>
       </provider>
     </entry>
