@@ -127,6 +127,44 @@ public class Controller {
     }
 
     @FXML
+    public void handleDeleteEvent(){
+        if(contactsTable.getItems().size() == 0){
+            Alert emptyTableAlert = new Alert(Alert.AlertType.INFORMATION);
+            emptyTableAlert.setTitle("No contacts in contact book!");
+            emptyTableAlert.setContentText("Enter a contact in table first to perform operations.");
+            emptyTableAlert.showAndWait();
+
+            return;
+        }
+
+        Contact selectedContact = contactsTable.getSelectionModel().getSelectedItem();
+
+        //Case: No contact selected to edit
+        if(selectedContact == null){
+            //Add Code for error message/ label/ window here
+            Alert nullSelectAlert = new Alert(Alert.AlertType.INFORMATION);
+            nullSelectAlert.setTitle("No contact selected.");
+            nullSelectAlert.setHeaderText(null);
+            nullSelectAlert.setContentText("Select a contact to delete");
+            nullSelectAlert.showAndWait();
+            return;
+        }
+
+        //else: delete selected contact
+        Alert deleteAlert = new Alert(Alert.AlertType.CONFIRMATION);
+        deleteAlert.setTitle("Delete Contact");
+        deleteAlert.setHeaderText("Are you sure you want to delete the selected contact:" +
+                selectedContact.getFirstName()+" "+ selectedContact.getLastName()+"?");
+        deleteAlert.setContentText("Note: Contact removed once cannot be retrieved");
+
+        Optional<ButtonType> result = deleteAlert.showAndWait();
+        if(result.isPresent() && result.get()==ButtonType.OK){
+            contactData.deleteContact(selectedContact);
+            contactData.saveContacts();
+        }
+    }
+
+    @FXML
     public void handleExit(){
         Platform.exit();
     }
